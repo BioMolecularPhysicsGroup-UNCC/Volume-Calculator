@@ -11,14 +11,11 @@
 #include <boost/random.hpp>
 #include <fstream>
 
-//#include <bmpg_uncc_edu/fast/FASTInitializer.hpp>
-#include "FASTInitializer.hpp"
-//#include <bmpg_uncc_edu/fast/ParameterFile.hpp>
-#include <bmpg_uncc_edu/chemistry/PDBProtein.hpp>
-#include <bmpg_uncc_edu/chemistry/helper/PDBProteinPreprocessor.hpp>
+#include <bmpg_uncc_edu/fast/FASTInitializer.hpp>
+
+#include <bmpg_uncc_edu/util/Exception.hpp>
+#include "PDBProtein.hpp"
 #include "bmpg_uncc_edu/chemistry/PDBAtom.hpp"
-//#include "bmpg_uncc_edu/forcefield/OPLSForceField.hpp"
-//#include "bmpg_uncc_edu/forcefield/ForceField.hpp"
 #include "bmpg_uncc_edu/chemistry/Element.hpp"
 #include <bmpg_uncc_edu/util/logger/LoggerFactory.hpp>
 #include <bmpg_uncc_edu/chemistry/helper/PDBHelper.hpp>
@@ -27,8 +24,6 @@ using namespace std;
 using namespace bmpg_uncc_edu::util;
 using namespace bmpg_uncc_edu::chemistry;
 using namespace bmpg_uncc_edu::chemistry::hbond;
-//using namespace bmpg_uncc_edu::fast;
-//using namespace bmpg_uncc_edu::forcefield;
 using namespace bmpg_uncc_edu::chemistry::helper;
 using namespace bmpg_uncc_edu::util::logger;
 using namespace bmpg_uncc_edu::algorithms;

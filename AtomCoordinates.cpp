@@ -93,10 +93,14 @@ void AtomCoordinates::getAtomCoordinates(string PDBFileName) {
     ifstream fin(PDBFileName.c_str());
     PDBProtein *protein = 0;
     protein = new PDBProtein;
-    protein->read(fin);
+    try {
+        protein->read(PDBFileName.c_str());
+    } catch (Exception e) {
+        throw Exception(e.what());
+    }
     fin.close();
     PDBProtein::AtomIterator iter;   
-   
+    
     nAtoms = protein->num_atoms();
     nResidues = protein->num_residues();
     
