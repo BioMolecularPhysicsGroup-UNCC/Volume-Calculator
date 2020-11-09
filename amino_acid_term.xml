@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Header copyright="Hui Wang", date="Jun 04, 2009"/>
+<AminoAcidLibrary>
+	<AminoAcid short_name="ala", long_name="alanine", formula="C3H7N1O2", acid_base="neutral", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2="1HB "/>
+			<Connection atom1=" CB ", atom2="2HB "/>
+			<Connection atom1=" CB ", atom2="3HB "/>
+	
+			<Connection atom1=" OXT", atom2=" HXT"/>
+		</CovalentConnections>
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>
+			
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="213", flanking_asa="104"/>
+	</AminoAcid>
+	
+	
+	<AminoAcid short_name="arg", long_name="arginine", formula="C6H15N4O2+", acid_base="base", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2=" CG "/>
+			<Connection atom1=" CB ", atom2="1HB "/>
+			<Connection atom1=" CB ", atom2="2HB "/>
+			
+			<Connection atom1=" CG ", atom2=" CD "/>
+			<Connection atom1=" CG ", atom2="1HG "/>
+			<Connection atom1=" CG ", atom2="2HG "/>
+			
+			<Connection atom1=" CD ", atom2=" NE "/>
+			<Connection atom1=" CD ", atom2="1HD "/>
+			<Connection atom1=" CD ", atom2="2HD "/>
+			
+			<Connection atom1=" NE ", atom2=" CZ "/>
+			<Connection atom1=" NE ", atom2=" HE "/>
+			
+			<Connection atom1=" CZ ", atom2=" NH1"/>
+			<Connection atom1=" CZ ", atom2=" NH2"/>
+			
+			<Connection atom1=" NH1", atom2="1HH1"/>
+			<Connection atom1=" NH1", atom2="2HH1"/>
+			
+			<Connection atom1=" NH2", atom2="1HH2"/>
+			<Connection atom1=" NH2", atom2="2HH2"/>
+			
+			<Connection atom1=" OXT", atom2=" HXT"/>
+		</CovalentConnections>
+		
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" NE ">
+				<Hybridization value="DONOR_CHARGED_SP2"/>
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="DONOR_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" NH1">
+				<Hybridization value="DONOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="ACCEPTOR_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" NH2">
+				<Hybridization value="DONOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="ACCEPTOR_SP2"/>
+			</Protonation_atom>
+			
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="363", flanking_asa="246"/>
+	</AminoAcid>
+	
+	<AminoAcid short_name="asn", long_name="asparagine", formula="C4H8N2O3", acid_base="neutral", include="yes", fed_calculation="yes">
+		<CovalentConnections>	
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2=" CG "/>
+			<Connection atom1=" CB ", atom2="1HB "/>
+			<Connection atom1=" CB ", atom2="2HB "/>
+	
+			<Connection atom1=" CG ", atom2=" OD1"/>
+			<Connection atom1=" CG ", atom2=" ND2"/>
+			
+			<Connection atom1=" ND2", atom2="1HD2"/>
+			<Connection atom1=" ND2", atom2="2HD2"/>
+	
+			<Connection atom1=" OXT", atom2=" HXT"/>
+			
+			<Connection atom1=" CB ", atom2="1HB "/>
+		</CovalentConnections>
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>
+		
+			<Protonation_atom name=" OD1">
+				<Hybridization value="ACCEPTOR_SP2"/>
+			</Protonation_atom>
+		
+			<Protonation_atom name=" ND2">
+				<Hybridization value="DONOR_SP2"/>
+			</Protonation_atom>
+		
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="279", flanking_asa="168"/>
+	</AminoAcid>
+	
+	
+	<AminoAcid short_name="asp", long_name="aspartate", formula="C4H7N1O4", acid_base="acid", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2=" CG "/>
+			<Connection atom1=" CB ", atom2="1HB "/>
+			<Connection atom1=" CB ", atom2="2HB "/>
+	
+			<Connection atom1=" CG ", atom2=" OD1"/>
+			<Connection atom1=" CG ", atom2=" OD2"/>
+			
+			<Connection atom1=" OD2", atom2=" HD2"/>
+			
+			<Connection atom1=" OXT", atom2=" HXT"/>
+			
+		</CovalentConnections>
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>
+		
+			<Protonation_atom name=" OD1">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_SP2"/>
+			</Protonation_atom>
+		
+			<Protonation_atom name=" OD2">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_SP2"/>
+			</Protonation_atom>
+			
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="277", flanking_asa="164"/>
+	</AminoAcid>
+	
+	
+	<AminoAcid short_name="cys", long_name="cysteine", formula="C3H7N1O2S1", acid_base="neutral", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2=" SG "/>
+			<Connection atom1=" CB ", atom2="1HB "/>
+			<Connection atom1=" CB ", atom2="2HB "/>
+	
+			<Connection atom1=" SG ", atom2=" HG "/>
+			
+			<Connection atom1=" OXT", atom2=" HXT"/>
+		</CovalentConnections>
+		
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>
+		
+			<Protonation_atom name=" SG ">
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP3"/>
+			</Protonation_atom>
+			
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="247", flanking_asa="133"/>
+	</AminoAcid>
+	
+	<AminoAcid short_name="css", long_name="cystine", formula="C3H7N1O2S1", acid_base="neutral", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2=" SG "/>
+			<Connection atom1=" CB ", atom2="1HB "/>
+			<Connection atom1=" CB ", atom2="2HB "/>
+	
+			<Connection atom1=" OXT", atom2=" HXT"/>
+		</CovalentConnections>
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>	
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="247", flanking_asa="133"/>
+	</AminoAcid>
+	
+	<AminoAcid short_name="gln", long_name="glutamine", formula="C5H10N2O3", acid_base="neutral", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2=" CG "/>
+			<Connection atom1=" CB ", atom2="1HB "/>
+			<Connection atom1=" CB ", atom2="2HB "/>
+	
+			
+			<Connection atom1=" CG ", atom2=" CD "/>
+			<Connection atom1=" CG ", atom2="1HG "/>
+			<Connection atom1=" CG ", atom2="2HG "/>
+			
+			<Connection atom1=" CD ", atom2=" OE1"/>
+			<Connection atom1=" CD ", atom2=" NE2"/>
+			
+			<Connection atom1=" NE2", atom2="1HE2"/>
+			<Connection atom1=" NE2", atom2="2HE2"/>
+	
+			<Connection atom1=" OXT", atom2=" HXT"/>
+		</CovalentConnections>
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>	
+		
+			<Protonation_atom name=" OE1">
+				<Hybridization value="ACCEPTOR_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" NE2">
+				<Hybridization value="DONOR_SP2"/>
+			</Protonation_atom>
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="302", flanking_asa="198"/>
+	</AminoAcid>
+
+	
+	<AminoAcid short_name="glu", long_name="glutamate", formula="C5H9N1O4", acid_base="acid", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2=" CG "/>
+			<Connection atom1=" CB ", atom2="1HB "/>
+			<Connection atom1=" CB ", atom2="2HB "/>
+			
+			
+			<Connection atom1=" CG ", atom2=" CD "/>
+			<Connection atom1=" CG ", atom2="1HG "/>
+			<Connection atom1=" CG ", atom2="2HG "/>
+	
+			<Connection atom1=" CD ", atom2=" OE1"/>
+			<Connection atom1=" CD ", atom2=" OE2"/>
+			
+			<Connection atom1=" OE2", atom2=" HE2"/>
+	
+			<Connection atom1=" OXT", atom2=" HXT"/>
+		</CovalentConnections>
+		
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>	
+		
+			<Protonation_atom name=" OE1">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OE2">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_SP2"/>
+			</Protonation_atom>
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="311", flanking_asa="193"/>
+	</AminoAcid>
+	
+	<AminoAcid short_name="gly", long_name="glycine", formula="C2H5N1O2", acid_base="neutral", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2="1HA "/>
+			<Connection atom1=" CA ", atom2="2HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" OXT", atom2=" HXT"/>
+		</CovalentConnections>
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="191", flanking_asa="78"/>
+	</AminoAcid>
+	
+	
+	<AminoAcid short_name="his", long_name="histidine", formula="C6H10N3O2+", acid_base="base", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2=" CG "/>
+			<Connection atom1=" CB ", atom2="1HB "/>
+			<Connection atom1=" CB ", atom2="2HB "/>
+	
+			
+			<Connection atom1=" CG ", atom2=" ND1"/>
+			<Connection atom1=" CG ", atom2=" CD2"/>
+			
+			<Connection atom1=" ND1", atom2=" CE1"/>
+			<Connection atom1=" ND1", atom2=" HD1"/>
+	
+			<Connection atom1=" CD2", atom2=" NE2"/>
+			<Connection atom1=" CD2", atom2=" HD2"/>
+	
+			<Connection atom1=" CE1", atom2=" NE2"/>
+			<Connection atom1=" CE1", atom2=" HE1"/>
+	
+			<Connection atom1=" NE2", atom2=" CE1"/>
+			<Connection atom1=" NE2", atom2=" HE2"/>
+	
+			<Connection atom1=" OXT", atom2=" HXT"/>
+		</CovalentConnections>
+		
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>	
+		
+			<Protonation_atom name=" ND1">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP2"/>
+				<Hybridization value="ACCEPTOR_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" NE2">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP2"/>
+				<Hybridization value="ACCEPTOR_SP2"/>
+			</Protonation_atom>
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="312", flanking_asa="197"/>
+	</AminoAcid>
+	
+	<AminoAcid short_name="hid", long_name="histidine-nd1", formula="C6H10N3O2+", acid_base="base", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2=" CG "/>
+			<Connection atom1=" CB ", atom2="1HB "/>
+			<Connection atom1=" CB ", atom2="2HB "/>
+	
+			
+			<Connection atom1=" CG ", atom2=" ND1"/>
+			<Connection atom1=" CG ", atom2=" CD2"/>
+			
+			<Connection atom1=" ND1", atom2=" CE1"/>
+			<Connection atom1=" ND1", atom2=" HD1"/>
+	
+			<Connection atom1=" CD2", atom2=" NE2"/>
+			<Connection atom1=" CD2", atom2=" HD2"/>
+	
+			<Connection atom1=" CE1", atom2=" NE2"/>
+			<Connection atom1=" CE1", atom2=" HE1"/>
+	
+			<Connection atom1=" NE2", atom2=" CE1"/>
+	
+			<Connection atom1=" OXT", atom2=" HXT"/>
+		</CovalentConnections>
+
+
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>		
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="312", flanking_asa="197"/>
+	</AminoAcid>
+	
+	<AminoAcid short_name="hie", long_name="histidine-ne2", formula="C6H10N3O2+", acid_base="base", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2=" CG "/>
+			<Connection atom1=" CB ", atom2="1HB "/>
+			<Connection atom1=" CB ", atom2="2HB "/>
+	
+			
+			<Connection atom1=" CG ", atom2=" ND1"/>
+			<Connection atom1=" CG ", atom2=" CD2"/>
+			
+			<Connection atom1=" ND1", atom2=" CE1"/>
+	
+			<Connection atom1=" CD2", atom2=" NE2"/>
+			<Connection atom1=" CD2", atom2=" HD2"/>
+	
+			<Connection atom1=" CE1", atom2=" NE2"/>
+			<Connection atom1=" CE1", atom2=" HE1"/>
+	
+			<Connection atom1=" NE2", atom2=" CE1"/>
+			<Connection atom1=" NE2", atom2=" HE2"/>
+	
+			<Connection atom1=" OXT", atom2=" HXT"/>
+		</CovalentConnections>
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>		
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="312", flanking_asa="197"/>
+	</AminoAcid>
+	
+	
+	<AminoAcid short_name="ile", long_name="isoleucine", formula="C6H13N1O2", acid_base="neutral", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2=" CG1"/>
+			<Connection atom1=" CB ", atom2=" CG2"/>
+			<Connection atom1=" CB ", atom2=" HB "/>
+	
+			
+			<Connection atom1=" CG1", atom2=" CD1"/>
+			<Connection atom1=" CG1", atom2="1HG1"/>
+			<Connection atom1=" CG1", atom2="2HG1"/>
+			
+			<Connection atom1=" CG2", atom2="1HG2"/>
+			<Connection atom1=" CG2", atom2="2HG2"/>
+			<Connection atom1=" CG2", atom2="3HG2"/>
+			
+			<Connection atom1=" CD1", atom2="1HD1"/>
+			<Connection atom1=" CD1", atom2="2HD1"/>
+			<Connection atom1=" CD1", atom2="3HD1"/>
+			
+			
+			<Connection atom1=" OXT", atom2=" HXT"/>
+		</CovalentConnections>
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>		
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="284", flanking_asa="175"/>
+	</AminoAcid>
+	
+	<AminoAcid short_name="leu", long_name="leucine", formula="C6H13N1O2", acid_base="neutral", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2="1HB "/>
+			<Connection atom1=" CB ", atom2="2HB "/>
+			<Connection atom1=" CB ", atom2=" CG "/>
+			
+			
+			<Connection atom1=" CG ", atom2=" CD1"/>
+			<Connection atom1=" CB ", atom2=" CD2"/>
+			<Connection atom1=" CB ", atom2=" HG "/>
+	
+			<Connection atom1=" CD1", atom2="1HD1"/>
+			<Connection atom1=" CD1", atom2="2HD1"/>
+			<Connection atom1=" CD1", atom2="3HD1"/>
+			
+			
+			<Connection atom1=" CD2", atom2="1HD2"/>
+			<Connection atom1=" CD2", atom2="2HD2"/>
+			<Connection atom1=" CD2", atom2="3HD2"/>
+	
+			<Connection atom1=" OXT", atom2=" HXT"/>
+		</CovalentConnections>
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>		
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="287", flanking_asa="180"/>
+	</AminoAcid>
+	
+	<AminoAcid short_name="lys", long_name="lysine", formula="C6H15N2O2+", acid_base="base", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2=" CG "/>
+			<Connection atom1=" CB ", atom2="1HB "/>
+			<Connection atom1=" CB ", atom2="2HB "/>
+	
+			<Connection atom1=" CG ", atom2=" CD "/>
+			<Connection atom1=" CG ", atom2="1HG "/>
+			<Connection atom1=" CG ", atom2="2HG "/>
+	
+			<Connection atom1=" CD ", atom2=" CE "/>
+			<Connection atom1=" CD ", atom2="1HD "/>
+			<Connection atom1=" CD ", atom2="2HD "/>
+			
+			<Connection atom1=" CE ", atom2=" NZ "/>
+			<Connection atom1=" CE ", atom2="1HE "/>
+			<Connection atom1=" CE ", atom2="2HE "/>
+			
+			<Connection atom1=" NZ ", atom2="1HZ "/>
+			<Connection atom1=" NZ ", atom2="2HZ "/>
+			<Connection atom1=" NZ ", atom2="3HZ "/>
+			
+			<Connection atom1=" OXT", atom2=" HXT"/>
+		</CovalentConnections>
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>	
+		
+			<Protonation_atom name=" NZ ">
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_SP3"/>
+			</Protonation_atom>	
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="319", flanking_asa="206"/>
+	</AminoAcid>
+	
+	
+	<AminoAcid short_name="met", long_name="methionine", formula="C5H11N1O2S1", acid_base="neutral", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2=" CG "/>
+			<Connection atom1=" CB ", atom2="1HB "/>
+			<Connection atom1=" CB ", atom2="2HB "/>
+	
+			<Connection atom1=" CG ", atom2=" SD "/>
+			<Connection atom1=" CG ", atom2="1HG "/>
+			<Connection atom1=" CG ", atom2="2HG "/>
+			
+			<Connection atom1=" SD ", atom2=" CE "/>
+			
+			<Connection atom1=" CE ", atom2="1HE "/>
+			<Connection atom1=" CE ", atom2="2HE "/>
+			<Connection atom1=" CE ", atom2="3HE "/>
+	
+			<Connection atom1=" OXT", atom2=" HXT"/>
+		</CovalentConnections>
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="306", flanking_asa="198"/>
+	</AminoAcid>
+	
+	
+	<AminoAcid short_name="phe", long_name="phenylalanine", formula="C9H11N1O2", acid_base="neutral", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2=" CG "/>
+			<Connection atom1=" CB ", atom2="1HB "/>
+			<Connection atom1=" CB ", atom2="2HB "/>
+	
+			<Connection atom1=" CG ", atom2=" CB "/>
+			<Connection atom1=" CG ", atom2=" CD1"/>
+			<Connection atom1=" CG ", atom2=" CD2"/>
+			
+			<Connection atom1=" CD1", atom2=" CE1"/>
+			<Connection atom1=" CD1", atom2=" HD1"/>
+			
+			<Connection atom1=" CD2", atom2=" CE2"/>
+			<Connection atom1=" CD2", atom2=" HD2"/>
+			
+			<Connection atom1=" CE1", atom2=" CZ "/>
+			<Connection atom1=" CE1", atom2=" HE1"/>
+	
+			<Connection atom1=" CE2", atom2=" CZ "/>
+			<Connection atom1=" CE2", atom2=" HE2"/>
+			
+			<Connection atom1=" CZ ", atom2=" HZ "/>
+			
+			<Connection atom1=" OXT", atom2=" HXT"/>
+		</CovalentConnections>
+		
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="324", flanking_asa="200"/>
+	</AminoAcid>
+	
+	<AminoAcid short_name="pro", long_name="proline", formula="C5H10N1O2", acid_base="neutral", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" CD "/>
+			<Connection atom1=" N  ", atom2=" HT1"/>
+			<Connection atom1=" N  ", atom2=" HT2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2=" CG "/>
+			<Connection atom1=" CB ", atom2="1HB "/>
+			<Connection atom1=" CB ", atom2="2HB "/>
+	
+			
+			<Connection atom1=" CG ", atom2=" CD "/>
+			<Connection atom1=" CG ", atom2="1HG "/>
+			<Connection atom1=" CG ", atom2="2HG "/>
+	
+			<Connection atom1=" CD ", atom2="1HD "/>
+			<Connection atom1=" CD ", atom2="2HD "/>
+					
+			<Connection atom1=" OXT", atom2=" HXT"/>
+		</CovalentConnections>
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="239", flanking_asa="124"/>
+	</AminoAcid>
+	
+	
+	<AminoAcid short_name="ser", long_name="serine", formula="C3H7N1O3", acid_base="neutral", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2=" OG "/>
+			<Connection atom1=" CB ", atom2="1HB "/>
+			<Connection atom1=" CB ", atom2="2HB "/>
+			
+			<Connection atom1=" OG ", atom2=" HG "/>
+			
+			<Connection atom1=" OXT", atom2=" HXT"/>
+		</CovalentConnections>
+		
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>	
+		
+			<Protonation_atom name=" OG ">
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>	
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="231", flanking_asa="122"/>
+	</AminoAcid>
+	
+	<AminoAcid short_name="thr", long_name="threoine", formula="C4H9N1O3", acid_base="neutral", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2=" OG1"/>
+			<Connection atom1=" CB ", atom2=" CG2"/>
+			<Connection atom1=" CB ", atom2=" HB "/>
+			
+			<Connection atom1=" OG1", atom2=" HG1"/>
+			<Connection atom1=" CG2", atom2="1HG2"/>
+			<Connection atom1=" CG2", atom2="2HG2"/>
+			<Connection atom1=" CG2", atom2="3HG2"/>
+	
+			<Connection atom1=" OXT", atom2=" HXT"/>
+		</CovalentConnections>
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>	
+		
+			<Protonation_atom name=" OG1">
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>	
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="259", flanking_asa="146"/>
+	</AminoAcid>
+	
+	<AminoAcid short_name="trp", long_name="tryptophan", formula="C11H12N2O2", acid_base="neutral", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2="1HB "/>
+			<Connection atom1=" CB ", atom2="2HB "/>
+			<Connection atom1=" CB ", atom2=" CG "/>
+	
+			<Connection atom1=" CG ", atom2=" CD1"/>
+			<Connection atom1=" CG ", atom2=" CD2"/>
+			
+			<Connection atom1=" CD1", atom2=" NE1"/>
+			<Connection atom1=" CD1", atom2=" HD1"/>
+	
+			<Connection atom1=" CD2", atom2=" CE2"/>
+			<Connection atom1=" CD2", atom2=" CE3"/>
+	
+			<Connection atom1=" NE1", atom2=" CE2"/>
+			<Connection atom1=" NE1", atom2=" HE1"/>
+			
+			<Connection atom1=" CE2", atom2=" CZ2"/>
+			
+			<Connection atom1=" CE3", atom2=" CZ3"/>
+			<Connection atom1=" CE3", atom2=" HE3"/>
+			
+			<Connection atom1=" CZ2", atom2=" CH2"/>
+			<Connection atom1=" CZ2", atom2=" HZ2"/>
+			
+			<Connection atom1=" CZ3", atom2=" CH2"/>
+			<Connection atom1=" CZ3", atom2=" HZ3"/>
+			
+			<Connection atom1=" CH2", atom2=" HH2"/>
+	
+			<Connection atom1=" OXT", atom2=" HXT"/>
+		</CovalentConnections>
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>	
+		
+			<Protonation_atom name=" NE1">
+				<Hybridization value="DONOR_SP2"/>
+			</Protonation_atom>
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="370", flanking_asa="248"/>
+	</AminoAcid>
+	
+	<AminoAcid short_name="tyr", long_name="tyrosine", formula="C9H11N1O3", acid_base="neutral", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2=" CG "/>
+			<Connection atom1=" CB ", atom2="1HB "/>
+			<Connection atom1=" CB ", atom2="2HB "/>
+	
+			<Connection atom1=" CG ", atom2=" CD1"/>
+			<Connection atom1=" CG ", atom2=" CD2"/>
+			
+			<Connection atom1=" CD1", atom2=" CE1"/>
+			<Connection atom1=" CD1", atom2=" HD1"/>
+	
+			<Connection atom1=" CD2", atom2=" CE2"/>
+			<Connection atom1=" CD2", atom2=" HD2"/>
+	
+			<Connection atom1=" CE1", atom2=" CZ "/>
+			<Connection atom1=" CE1", atom2=" HE1"/>
+			
+			
+			<Connection atom1=" CE2", atom2=" CZ "/>
+			<Connection atom1=" CE2", atom2=" HE2"/>
+			
+			<Connection atom1=" CZ ", atom2=" OH "/>
+			
+			<Connection atom1=" OH ", atom2=" HH "/>
+	
+			<Connection atom1=" OXT", atom2=" HXT"/>
+		</CovalentConnections>
+		
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>	
+		
+			<Protonation_atom name=" OH ">
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP3"/>
+			</Protonation_atom>
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="339", flanking_asa="210"/>
+	</AminoAcid>
+	
+	<AminoAcid short_name="val", long_name="valine", formula="C5H11N1O2", acid_base="neutral", include="yes", fed_calculation="yes">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" CA "/>
+			<Connection atom1=" N  ", atom2=" H  "/>
+			<Connection atom1=" N  ", atom2=" HN2"/>
+			
+			<Connection atom1=" CA ", atom2=" C  "/>
+			<Connection atom1=" CA ", atom2=" CB "/>
+			<Connection atom1=" CA ", atom2=" HA "/>
+			
+			<Connection atom1=" C  ", atom2=" O  "/>
+			<Connection atom1=" C  ", atom2=" OXT"/>
+			
+			<Connection atom1=" CB ", atom2=" CG1"/>
+			<Connection atom1=" CB ", atom2=" CG2"/>
+			<Connection atom1=" CB ", atom2=" HB "/>
+			
+			<Connection atom1=" CG1", atom2="1HG1"/>
+			<Connection atom1=" CG1", atom2="2HG1"/>
+			<Connection atom1=" CG1", atom2="3HG1"/>
+	
+			<Connection atom1=" CG2", atom2="1HG2"/>
+			<Connection atom1=" CG2", atom2="2HG2"/>
+			<Connection atom1=" CG2", atom2="3HG2"/>
+			
+			<Connection atom1=" OXT", atom2=" HXT"/>
+		</CovalentConnections>
+
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+			
+			<Protonation_atom name=" OXT">
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP2"/>
+			</Protonation_atom>
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="261", flanking_asa="150"/>
+	</AminoAcid>
+
+	<!-- ace and nh2 terms, needs double checking -->
+	<AminoAcid short_name="ace", long_name="ace", formula="C2H3O", acid_base="neutral", include="yes", fed_calculation="no">
+		<CovalentConnections>
+			<Connection atom1=" CH3", atom2="1HH3"/>
+			<Connection atom1=" CH3", atom2="2HH3"/>
+			<Connection atom1=" CH3", atom2="3HH3"/>
+
+			<Connection atom1=" CH3", atom2=" C  "/>
+
+			<Connection atom1=" C  ", atom2=" O  "/>
+		</CovalentConnections>
+		
+		<Protonation>
+			<Protonation_atom name=" O  ">
+				<Hybridization value="ACCEPTOR_SP2"/>
+				<Hybridization value="ACCEPTOR_CHARGED_SP2"/>
+			</Protonation_atom>
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="1", flanking_asa="1"/>
+	</AminoAcid>
+
+	<AminoAcid short_name="nh2", long_name="nh2", formula="NH2", acid_base="neutral", include="yes", fed_calculation="no">
+		<CovalentConnections>
+			<Connection atom1=" N  ", atom2=" H1 "/>
+			<Connection atom1=" N  ", atom2=" H2 "/>
+		</CovalentConnections>
+		
+		<Protonation>
+			<Protonation_atom name=" N  ">
+				<Hybridization value="DONOR_SP2"/>
+				<Hybridization value="DONOR_CHARGED_SP3"/>
+				<Hybridization value="DONOR_AND_ACCEPTOR_SP3"/>
+			</Protonation_atom>
+		</Protonation>
+		
+		<SolvationProperty  naked_asa="1", flanking_asa="1"/>
+	</AminoAcid>
+
+</AminoAcidLibrary>

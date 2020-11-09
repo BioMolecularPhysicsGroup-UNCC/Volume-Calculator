@@ -29,7 +29,7 @@ int main(int argc, char** argv) {
     string PDBFileName = "1bp2.pdb";    
     string outputPath = "";//results/";
     bool oneRun = false;                                                        // set to true for a single run, false for multiple rotations with output file summaries
-    int  rotations = 3;
+    int  rotations = 1;
     bool flagOpt = false;                                                        // true => use optimized search algorithm, false => benchmark using unoptimized search method
     int  iq;                                                                    // dummy variable -- not sure how to work getopt() function
     int  fixedProbe = 1;

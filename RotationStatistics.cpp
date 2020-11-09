@@ -338,7 +338,7 @@ void RotationStatistics::rotateRun(int nRotations, string outputPath, string PDB
     microvoidHistFile.close();
     voidHistFile.close();   
     rsmFile.close();
-         
+
     if (r < 0.49) {
         r += 0.01;
     } else {

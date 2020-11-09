@@ -12,9 +12,11 @@
 #include <fstream>
 
 #include <bmpg_uncc_edu/fast/FASTInitializer.hpp>
+//#include "FASTInitializer.hpp";
 
 #include <bmpg_uncc_edu/util/Exception.hpp>
-#include "PDBProtein.hpp"
+//#include "PDBProtein.hpp"
+#include "bmpg_uncc_edu/chemistry/PDBProtein.hpp"
 #include "bmpg_uncc_edu/chemistry/PDBAtom.hpp"
 #include "bmpg_uncc_edu/chemistry/Element.hpp"
 #include <bmpg_uncc_edu/util/logger/LoggerFactory.hpp>

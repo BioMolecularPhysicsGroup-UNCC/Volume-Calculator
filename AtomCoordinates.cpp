@@ -14,17 +14,6 @@ AtomCoordinates::AtomCoordinates(bool bondi) : bondi_(bondi) {
 
 AtomCoordinates::~AtomCoordinates() {
     
-    for (int i = 0; i < nAtoms; i++) {
-        delete [] atomCoords[i];
-        delete [] atomTypes[i];
-    }
-    delete [] atomCoords;
-    delete [] atomTypes;
-    
-    for (int i = 0; i <= maxResiduesInChain_; i++) {
-        delete [] residueTypes[i];
-    }
-    delete [] residueTypes;
 
     for (int i = 0; i < nChains_; i++) {
         delete [] cavityPerResidue1_[i];
@@ -80,6 +69,15 @@ AtomCoordinates::~AtomCoordinates() {
 
     delete [] cavityPerAtomClose2_;
     delete [] boundaryPerAtomClose2_;
+
+    for (int i = 0; i <= nAtoms; i++) {
+        delete [] atomCoords[i];
+    }
+
+    delete [] atomCoords;
+    delete [] atomTypes;
+    delete [] residueTypes;
+
 }
 
 void AtomCoordinates::getAtomCoordinates(string PDBFileName) {
